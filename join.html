@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sub_DCODELAB</title>
+    <link rel="stylesheet" href="css/join.css">
+    <script src="https://kit.fontawesome.com/3634a11752.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="inner">
+            <a href="index.html" class="logo">
+                <h1>DCODELAB</h1>
+                <span>Basic Programing</span>
+            </a>
+            <ul id="gnb">
+                <li>
+                    <a href="#">DEPARTMENT</a>
+                </li>
+                <li>
+                    <a href="community.html">COMMUNITY</a>
+                </li>
+                <li>
+                    <a href="#">MEMBERS</a>
+                </li>
+                <li>
+                    <a href="#">GALLERY</a>
+                </li>
+                <li>
+                    <a href="#">LOCATION</a>
+                </li>
+            </ul>
+            <!-- 반응형 사이드 네비 
+            <i class="fas fa-bars"></i>
+            <ul class="gnbMo">
+                <li>
+                    <a href="#">DEPARTMENT</a>
+                </li>
+                <li>
+                    <a href="#">COMMUNITY</a>
+                </li>
+                <li>
+                    <a href="#">MEMBERS</a>
+                </li>
+                <li>
+                    <a href="#">GALLERY</a>
+                </li>
+                <li>
+                    <a href="#">LOCATION</a>
+                </li>
+            </ul> -->
+        </div>
+    </header>
+
+    <section class="content">
+        <figure class="sub_visual">
+        </figure>
+        <div class="inner">
+            <h1>회원가입
+                <span>JOIN</span>
+            </h1>
+            <form action="result.html">
+                <fieldset>
+                    <legend class="hidden">회원가입 양식 필수정보</legend>
+                    <div>
+                        <label for="userid">사용자ID</label>
+                        <input type="text" id="userid" name="userid" placeholder="아이디">
+                    </div>
+                    <div>
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" id="pwd" name="pwd" placeholder="비밀번호">
+                    </div>
+                    <div>
+                        <label for="pwd2">PASSWORD 재확인</label>
+                        <input type="text" id="pwd2" name="pwd2" placeholder="비밀번호">
+                    </div>
+                    <div>
+                        <label for="username">이름</label>
+                        <input type="text" id="username" name="username" placeholder="이름">
+                    </div>
+                    <div class="birth">
+                        <label for="birth">생년월일</label>
+                        <input type="text" id="year" name="year" placeholder="년(4자)">
+                        <select name="month" id="month">
+                            <option value="">월</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select name="date" id="date">
+                            <option value="">일</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="useremail">본인확인 이메일(선택)</label>
+                        <input type="text" name="useremail" id="sueremail" placeholder="이메일">
+                    </div>
+                    <div class="phone">
+                        <label for="userphone">휴대전화</label>
+                        <select name="nation" id="nation">
+                            <option value="a">가나</option>
+                            <option value="b">노르웨이</option>
+                            <option value="c" selected>대한민국+82</option>
+                            <option value="d">몰디브</option>
+                            <option value="e">쿠바</option>
+                        </select>
+                        <input type="text" name="userphone" id="userphone" placeholder="전화번호입력">
+                        <a href="#" id="btn">인증번호받기</a>
+                        <input type="text" name="conf" id="conf" placehoder="인증번호를 입력하세요." disabled>
+                    </div>
+                    <div>
+                        <input type="submit" value="가입하기">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <nav id="gnbLow">
+        <div class="inner">
+            <div class="wrap">
+                <h2>lorem</h2>
+                <ul>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>        
+                </ul>
+            </div>
+            <div class="wrap">
+                <h2>lorem</h2>
+                <ul>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>        
+                </ul>
+            </div>
+            <div class="wrap">
+                <h2>lorem</h2>
+                <ul>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>        
+                </ul>
+            </div>
+            <div class="wrap">
+                <h2>lorem</h2>
+                <ul>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>        
+                </ul>
+            </div>
+            <div class="wrap2">
+                <ul>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Lorem, ipsum.</a></li> 
+                </ul>
+                <ul>
+                    <li><a href="#">Lorem, ipsum.</a></li> 
+                    <li><a href="#">Lorem, ipsum.</a></li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <footer id="footer">
+        <div class="inner">
+            <h1>DCODELAB</h1>
+            <span>2010 DCODELAB ALL Right reserved</span>
+            <form action="">
+                <select name="" id="">
+                    <option value="">FamilyName</option>
+                </select>
+            </form>
+        </div>
+    </footer>
+
+</body>
